@@ -8,7 +8,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-Di materi ini kamu akan mempelajari tentang materi yang ada di kimia anorganik, meliputi analisis kualitatif senyawa anorganik dan juga uji nyala
+lorem ipsum='''
+Di materi ini kamu akan mempelajari tentang materi yang ada di kimia anorganik, meliputi analisis kualitatif senyawa anorganik dan juga uji nyala\
+'''
 
 
 def stream_data():
