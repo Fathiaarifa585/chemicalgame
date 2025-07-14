@@ -1,9 +1,5 @@
-# MENAMPILKAN MENU UTAMA #
 import streamlit as st
-st.title("GAME UJI KUALITATIF SENYAWA")
-st.write("SELAMAT DATANG DI GAME EDUKASI")
-
-#MENAMPILKAN MENU UTAMA#
-def menampilkan_menu_utama():
-  print("ORGANIK")
-  print("LANORGANIK")
+def tampilkan_menu_utama():
+  st.title("Game Uji Kualitatif Senyawa Organik dan Anorganik")
+  menu=st.selectbox("Pilih menu:",["Organik","Anorganik"])
+  return menu
