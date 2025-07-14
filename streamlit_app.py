@@ -9,9 +9,7 @@ import pandas as pd
 import streamlit as st
 
 _LOREM_IPSUM = """
-Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Di materi ini kamu akan mempelajari tentang materi yang ada di kimia anorganik, meliputi analisis kualitatif senyawa anorganik dan juga uji nyala
 """
 
 
