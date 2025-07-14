@@ -8,9 +8,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-lorem ipsum='''
-Di materi ini kamu akan mempelajari tentang materi yang ada di kimia anorganik, meliputi analisis kualitatif senyawa anorganik dan juga uji nyala\
-'''
+_LOREM_IPSUM = """
+Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. kamu mau pilih yang mana dulu?
+"""
 
 
 def stream_data():
