@@ -11,4 +11,4 @@ import streamlit as st
 _KIMIA_ORGANIK = """Di materi ini kamu akan mempelajari materi terkait kimia anorganik, meliputi Uji nyala dan Uji Kualitatif senyawa anorganik"""
 
 if st.button("KIMIA ORGANIK"):
-    st.write_stream(KIMIA_ORGANIK)
+    st.write_stream(_KIMIA_ORGANIK)
