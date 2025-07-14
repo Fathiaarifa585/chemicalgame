@@ -23,10 +23,5 @@ def stream_data():
         columns=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
     )
 
-    for word in _LOREM_IPSUM.split(" "):
-        yield word + " "
-        time.sleep(0.02)
-
-
 if st.button("Stream data"):
     st.write_stream(stream_data)
