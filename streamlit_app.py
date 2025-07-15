@@ -30,10 +30,10 @@ if right.button("Anorganik", icon="🧪", use_container_width=True):
 
 col1,col2=st.columns(2)
 with col1:
-    if st.button("materi"):
+    if st.button("materi Organik"):
         st.write("mulai materi Organik")
 with col2:
-    if st.button("materi"):
+    if st.button("materi Anorganik"):
         st.write("mulai materi Anorganik")
     
 
