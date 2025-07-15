@@ -4,8 +4,6 @@ st.title("Halo Selamat Datang Di Game Kami!")
 st.title("Mau Ngapain Dulu Nih?")
 
 import time
-import numpy as np
-import pandas as pd
 import streamlit as st
 
 _LOREM_IPSUM = """
@@ -18,7 +16,7 @@ def stream_data():
         time.sleep(0.3)
         
 if st.button("Stream data"):
-    st.write_stream(stream_data)
+    stream_data()
         
 import streamlit as st
 left, middle, right = st.columns(3)
@@ -29,5 +27,3 @@ if middle.button("Emoji button", icon="😃", use_container_width=True):
 if right.button("Material button", icon=":material/mood:", use_container_width=True):
     right.markdown("You clicked the Material button.")
 
-if st.button("Stream data"):
-    st.write_stream(stream_data)
