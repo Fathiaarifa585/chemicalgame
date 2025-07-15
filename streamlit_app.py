@@ -9,8 +9,8 @@ Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. 
 
 
 def stream_data():
-    for word in _LOREM_IPSUM.split"aaaa":
-        print word in _LOREM_IPSUM.split"aaaa"
+    for word in _LOREM_IPSUM.split(" "):
+        print word in _LOREM_IPSUM.split" "
         
 import streamlit as st
 left, middle, right = st.columns(3)
