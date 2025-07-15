@@ -14,8 +14,9 @@ Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. 
 
 def stream_data():
     for word in _LOREM_IPSUM.split(" "):
-        print(word in _LOREM_IPSUM.split(" "))
-
+        st.write(word in _LOREM_IPSUM.split(" "))
+        time.sleep(0.3)
+        
 if st.button("Stream data"):
     st.write_stream(stream_data)
         
