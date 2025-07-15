@@ -25,7 +25,16 @@ import streamlit as st
 left, right = st.columns(2)
 if left.button("Organik", icon="🧫", use_container_width=True):
     left.markdown("You clicked the Organik.")
+col1,col2=st.columns(2)
+with col1:
+    if st.button("materi"):
+        st.write("mulai materi")
+with col2:
+    if st.button("quiz"):
+        st.write("mulai quiz")
+    
 if right.button("Anorganik", icon="🧪", use_container_width=True):
      right.markdown("You clicked the Anorganik.")
+
 
 
