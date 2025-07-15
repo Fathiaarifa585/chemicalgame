@@ -31,7 +31,25 @@ if right.button("Anorganik", icon="🧪", use_container_width=True):
 col1,col2=st.columns(2)
 with col1:
     if st.button("materi Organik"):
-        st.write("mulai materi Organik")
+        st.write("🔬 *Uji Alkohol dalam Kimia Organik*
+
+Alkohol adalah senyawa organik yang memiliki gugus –OH (hidroksil) yang terikat pada atom karbon jenuh. Untuk mengidentifikasi jenis alkohol (primer, sekunder, atau tersier), dapat dilakukan beberapa *uji kualitatif sederhana, antara lain **reaksi dengan logam natrium (Na)* dan *uji Lucas*.
+
+---
+
+### ⚗ *1. Reaksi Alkohol dengan Logam Natrium (Na)*
+
+*Prinsip:*
+Alkohol dapat bereaksi dengan logam natrium membentuk *alkoksida* dan *gas hidrogen (H₂). Reaksi ini ditandai dengan **munculnya gelembung gas (buih)*.
+Pengamatan:*
+
+* Timbul *buih atau gelembung gas* menunjukkan adanya gas H₂
+* Semakin reaktif alkohol → reaksi lebih cepat
+ 🧪 *2. Uji Lucas (Lucas Test)*
+
+*Prinsip:*
+Uji ini digunakan untuk *mengidentifikasi jenis alkohol* berdasarkan kecepatan terbentuknya *endapan atau kekeruhan* saat alkohol bereaksi dengan *reagen Lucas* (campuran ZnCl₂ dan HCl pekat). Reagen ini menyebabkan terbentuknya alkil halida yang tidak larut dalam air → larutan menjadi *keruh*.
+")
 with col2:
     if st.button("materi Anorganik"):
         st.write("mulai materi Anorganik")
