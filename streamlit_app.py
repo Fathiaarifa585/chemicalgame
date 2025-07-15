@@ -35,8 +35,14 @@ with col1:
 with col2:
     if st.button("materi Anorganik"):
         st.write("mulai materi Anorganik")
-    
 
+col1,col2=st.columns(2)
+with col1:
+    if st.button("game Organik"):
+        st.write("mulai game Organik")
+with col2:
+    if st.button("game Anorganik"):
+        st.write("mulai game Anorganik")
 
 
 
