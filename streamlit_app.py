@@ -3,14 +3,21 @@ import streamlit as st
 st.title("Halo Selamat Datang Di Game Kami!")
 st.title("Mau Ngapain Dulu Nih?")
 
+import time
+import numpy as np
+import pandas as pd
+import streamlit as st
+
 _LOREM_IPSUM = """
 Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. kamu mau pilih yang mana dulu?
 """
 
-
 def stream_data():
     for word in _LOREM_IPSUM.split(" "):
         print(word in _LOREM_IPSUM.split(" "))
+
+if st.button("Stream data"):
+    st.write_stream(stream_data)
         
 import streamlit as st
 left, middle, right = st.columns(3)
