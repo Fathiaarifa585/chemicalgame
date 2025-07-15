@@ -50,6 +50,7 @@ Pengamatan:*
 *Prinsip:*
 Uji ini digunakan untuk *mengidentifikasi jenis alkohol* berdasarkan kecepatan terbentuknya *endapan atau kekeruhan* saat alkohol bereaksi dengan *reagen Lucas* (campuran ZnCl₂ dan HCl pekat). Reagen ini menyebabkan terbentuknya alkil halida yang tidak larut dalam air → larutan menjadi *keruh*.
 ")
+
 with col2:
     if st.button("materi Anorganik"):
         st.write("mulai materi Anorganik")
