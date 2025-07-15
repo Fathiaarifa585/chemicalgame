@@ -23,9 +23,9 @@ if st.button("Stream data"):
         
 import streamlit as st
 left, right = st.columns(2)
-if left.button("Organik", icon="🧫" use_container_width=True):
+if left.button("Organik", icon="🧫", use_container_width=True):
     left.markdown("You clicked the Organik.")
-if right.button("Anorganik", icon="🧪" use_container_width=True):
+if right.button("Anorganik", icon="🧪", use_container_width=True):
      right.markdown("You clicked the Anorganik.")
 
 
