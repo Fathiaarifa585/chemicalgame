@@ -13,7 +13,7 @@ Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. 
 def stream_data():
     placeholder=st.empty()
     full_text=""
-    for char in_LOREM_IPSUM:
+    for char in _LOREM_IPSUM:
         full_text+=char
         placeholder.markdown(f"<p style='font-size:20px'>{full_text}</p>",unsafe_allow_html=True)
         time.sleep(0.05)
