@@ -11,9 +11,12 @@ Di materi ini kamu akan mempelajari onorganik. ada latoihan dan materinya juga. 
 """
 
 def stream_data():
-    for word in _LOREM_IPSUM.split(" "):
-        st.write(word)
-        time.sleep(0.3)
+    placeholder=st.empty()
+    full_text=""
+    for char in_LOREM_IPSUM:
+        full_text+=char
+        placeholder.markdown(f"<p style='font-size:20px'>{full_text}</p>",unsafe_allow_html=True)
+        time.sleep(0.05)
         
 if st.button("Stream data"):
     stream_data()
